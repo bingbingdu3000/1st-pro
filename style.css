@@ -1,0 +1,22 @@
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.name {
+    color: rgb(240, 166, 29);
+}
+
+.section-one {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+} 
+
+.section-one img {
+    width: 100%;
+}
