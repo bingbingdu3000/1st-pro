@@ -1,14 +1,21 @@
 body {
+    margin: 0;
     font-family: 'Abel', sans-serif;
+    width: auto;
 }
 
 h1 {
     font-size: 50px;
 }
-
-.name {
-    color: rgb(240, 166, 29);
+h2{
+    font-size: 40px;
 }
+p{
+    color:black;
+}
+.name {   color: rgb(240, 166, 29 );
+}
+
 
 .section-one {
     width: 40%;
@@ -19,4 +26,67 @@ h1 {
 
 .section-one img {
     width: 100%;
+}
+.top{
+    background-image: url("C:\my projects\protofolio\1\complete-web-development-bangla-resources\developer-portfolio\top-banner.png");
+
+    width: auto;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(101, 58, 53),rgb(77, 77, 16));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+
+}
+.section-two { 
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 2%;
+} 
+
+.section-two img {
+    width: 100%;
+}
+.dream{
+     background-image: url("C:\my projects\protofolio\1\complete-web-development-bangla-resources\developer-portfolio\exp-bg.png");
+     background-repeat: no-repeat;
+     background-position: right;
+}
+.row{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+
+}
+.experience{
+    background-image: url("C:\my projects\protofolio\1\complete-web-development-bangla-resources\developer-portfolio\exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+     
+
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato );
+    border-image-slice: 1;
+}
+#fully{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan );
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
